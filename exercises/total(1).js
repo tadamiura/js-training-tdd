@@ -8,10 +8,6 @@
 
 // Your code:
 
-function total([i]){
-    for (let i = 0; i<i.length;i++)
-return sum += total[i] 
-}
 //* Begin of tests
 const assert = require('assert');
 
