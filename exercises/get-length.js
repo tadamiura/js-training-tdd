@@ -3,12 +3,17 @@
 /*
  * Create a `getLength` function that takes an array or a string
  * and return its length.
- *
+ 
  * @notions Data-Structures, Get
  */
 
 // Your code:
-
+function getLength(array){
+    let length = 0;
+    for(i=0 ; i<array.length ; i++){
+        ;
+    } return length
+}
 //* Begin of tests
 const assert = require('assert');
 
