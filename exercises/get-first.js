@@ -8,7 +8,10 @@
  */
 
 // Your code:
-
+function getFirst(arr){
+    let i = [];
+    return arr[0]
+}
 //* Begin of tests
 const assert = require('assert');
 
