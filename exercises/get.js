@@ -16,7 +16,10 @@ const sourceObject = {
 };
 
 // Your code:
-
+function get(prompt){
+  let key = prompt
+  return sourceObject[key]
+}
 //* Begin of tests
 const assert = require('assert');
 
