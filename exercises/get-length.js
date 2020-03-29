@@ -8,12 +8,11 @@
  */
 
 // Your code:
-function getLength(array){
-    let length = 0;
-    for(i=0 ; i<array.length ; i++){
-        ;
-    } return length
+function getLength(arr){
+    let i = [];
+    return arr.length
 }
+    
 //* Begin of tests
 const assert = require('assert');
 
