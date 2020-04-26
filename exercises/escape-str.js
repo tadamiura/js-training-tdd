@@ -8,7 +8,7 @@
  */
 
 // Your code:
-
+let escapeStr = "\\Hello \' \" \` /"
 //* Begin of tests
 const assert = require('assert');
 
@@ -18,4 +18,5 @@ assert.strictEqual(escapeStr.includes('"'), true);
 assert.strictEqual(escapeStr.includes('`'), true);
 assert.strictEqual(escapeStr.includes('/'), true);
 assert.strictEqual(escapeStr.includes('\\'), true);
+
 // End of tests */
