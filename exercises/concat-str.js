@@ -5,7 +5,9 @@
  *
  * @notions Functions, Operators
  */
-
+const concatStr = (a, b) => {
+    return a.concat(b)
+} 
 // Your code:
 
 //* Begin of tests
