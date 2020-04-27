@@ -14,12 +14,12 @@ const yell = (str) => {
 //* Begin of tests
 const assert = require('assert');
 
-assert.strictEqual(typeof sentence, 'function');
-assert.strictEqual(sentence.length, 1);
-assert.deepStrictEqual(sentence('abc'), 'ABC');
-assert.deepStrictEqual(sentence('Hello World'), 'HELLO WORLD');
-assert.deepStrictEqual(sentence('UPPERCASE'), 'UPPERCASE');
-assert.deepStrictEqual(sentence('1'), '1');
+assert.strictEqual(typeof yell, 'function');
+assert.strictEqual(yell.length, 1);
+assert.deepStrictEqual(yell('abc'), 'ABC');
+assert.deepStrictEqual(yell('Hello World'), 'HELLO WORLD');
+assert.deepStrictEqual(yell('UPPERCASE'), 'UPPERCASE');
+assert.deepStrictEqual(yell('1'), '1');
 
 
 assert.fail('You must write your own tests');
