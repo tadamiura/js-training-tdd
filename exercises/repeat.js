@@ -9,7 +9,13 @@
 
 // Your code:
 const repeat = (a, n) => {
-   return a.repeat(n)
+   if(n <= 0) {
+      return ''
+   } else if (n === 1) {
+      return a
+   } else {
+      return a + repeat(a, n -1)
+   }
 }
 
 //* Begin of tests
