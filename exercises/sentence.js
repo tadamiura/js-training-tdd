@@ -8,9 +8,8 @@
 
 // Your code:
 const sentence = (array) => {
-     array.split("").toString()
+     return array.split("").toString()
 }
-return sentence
 
 //* Begin of tests
 const assert = require('assert');

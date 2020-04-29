@@ -11,7 +11,19 @@
  */
 
 // Your code:
+const cutEnd = str.lenght - 2;
 
+const cutFirst = (str) => {
+    str.substr(2, str.lenght)
+}
+    
+const cutLast = (str) => {
+    str.substr(0, cutEnd)
+}
+
+const cutFirstLast = (str) => {
+    str.substring(2, cutEnd)
+}
 //* Begin of tests
 const assert = require('assert');
 

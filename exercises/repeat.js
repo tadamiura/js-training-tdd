@@ -9,9 +9,8 @@
 
 // Your code:
 const repeat = (a, n) => {
-   a.repeat(n)
+   return a.repeat(n)
 }
-return repeat
 
 //* Begin of tests
 const assert = require('assert');
