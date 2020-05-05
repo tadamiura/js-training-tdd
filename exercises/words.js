@@ -7,8 +7,8 @@
  */
 
 // Your code:
-const words = (array) => {
-    return array.split('')
+const words = (str) => {
+    return str.split(' ')
 }
 //* Begin of tests
 const assert = require('assert');
