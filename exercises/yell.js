@@ -7,10 +7,10 @@
  */
 
 // Your code:
-const yell = (str) => {
-    str.toUpperCase()
-}
- return yell
+// const yell = (str) => {
+//     str.toUpperCase()
+// }
+//  return yell
 //* Begin of tests
 const assert = require('assert');
 
