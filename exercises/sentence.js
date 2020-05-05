@@ -7,8 +7,8 @@
  */
 
 // Your code:
-const sentence = (array) => {
-     return array.split("").toString()
+function sentence(array) {
+     return array.join(" ")
 }
 
 //* Begin of tests
