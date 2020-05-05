@@ -13,9 +13,23 @@
  */
 
 // Your code:
+const keepFirst = (str) => {
+    return str.substr(0,2)
+}
+
+const keepLast = (str) => {
+    return str.substr(str.length - 2, 2)
+}
 
 //* Begin of tests
 const assert = require('assert');
 
-assert.fail('You must write your own tests');
+assert.deepStrictEqual(keepFirst('yoloyolo'), 'yo')
+assert.deepStrictEqual(keepFirst('manger'), 'ma')
+
+assert.deepStrictEqual(keepLast('mamamiamamia'), 'ia')
+assert.deepStrictEqual(keepLast('yolo'), 'lo')
+
+
+// assert.fail('You must write your own tests');
 // End of tests */
