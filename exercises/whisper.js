@@ -8,9 +8,9 @@
  */
 
 // Your code:
-// const whisper = (str) => {
-//     return '*' + str.toLowerCase() + '*'
-// }
+const whisper = (str) => {
+    return '*' + str.toLowerCase() + '*'
+}
 //* Begin of tests
 const assert = require('assert');
 
